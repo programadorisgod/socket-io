@@ -1,0 +1,21 @@
+{
+  "name": "io",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "author": "Camilo.json",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends":"./node_modules/standard/eslintrc.json"
+  }
+}
